@@ -18,7 +18,7 @@ function CreateEmployee() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://employee-reg-form.onrender.com/create_employees', {
+      await axios.post('https://employee-reg-form.onrender.com/api/create_employees', {
         name,
         email,
         phone,
